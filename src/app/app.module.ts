@@ -13,6 +13,7 @@ import { ParentDialogComponent } from './components/parent-dialog.component';
 import { PromptComponent } from './components/prompt.component';
 import { ConfirmComponent } from './components/confirm.component';
 import { AlertComponent } from './components/alert.component';
+import { MyModalComponent } from './my-modal/my-modal.component';
 
 @NgModule({
     imports: [
@@ -33,7 +34,8 @@ import { AlertComponent } from './components/alert.component';
         AlertComponent,
         ConfirmComponent,
         PromptComponent,
-        ParentDialogComponent
+        ParentDialogComponent,
+        MyModalComponent
     ],
     entryComponents: [
         AlertComponent,
